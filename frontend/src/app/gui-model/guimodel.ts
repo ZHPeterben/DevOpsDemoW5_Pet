@@ -27,7 +27,7 @@ export class GuiModel {
                             "id": "NotImplemented",
                             "type": "label",
                             "name": "NotImplementedMessage",
-                            "width": 2
+                            "width": 3
                         },
                         {
                             "type": "okButton",
@@ -44,7 +44,7 @@ export class GuiModel {
                             "id": "NotImplemented",
                             "type": "label",
                             "name": "NotImplementedMessage",
-                            "width": 2
+                            "width": 4
                         },
                         {
                             "type": "okButton",
@@ -54,7 +54,7 @@ export class GuiModel {
                 },
                 {
                     "id": "ToDoForm",
-                    "title": { default: "ToDo" },
+                    "title": { default: "Machen" },
                     "url": "/todo",
                     "formFieldList": [
                         {
@@ -75,11 +75,11 @@ export class GuiModel {
                         },
                         {
                             "type": "deleteButton",
-                            "name": "Delete"
+                            "name": "Löschen"
                         },
                         {
                             "type": "cancelButton",
-                            "name": "Cancel"
+                            "name": "Abbrechen"
                         },
                         {
                             "type": "okButton",
@@ -101,10 +101,19 @@ export class GuiModel {
                         {
                             "type": "button",
                             "name": { default: "ToDo-List" },
-                            "icon": "fa-file-alt",
-                            "color": "wet-asphalt",
+                            "icon": "fa-dna",
+                            "color": "purple",
                             "page": "toDoPage",
                             "width": 2,
+                            "newRow": true,
+                        },
+                        {
+                            "type": "button",
+                            "name": { default: "Testbutton" },
+                            "icon": "fa-f56a",
+                            "color": "lime",
+                            "page": "toDoPage",
+                            "width": 3,
                             "newRow": true,
                         },
                     ]
