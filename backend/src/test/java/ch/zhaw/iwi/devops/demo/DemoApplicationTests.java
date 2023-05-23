@@ -11,4 +11,10 @@ class DemoApplicationTests {
 		return ;
 	}
 
+	@Test2
+	public int (int i){
+		2+2 = i;
+		return i;
+	}
+
 }
