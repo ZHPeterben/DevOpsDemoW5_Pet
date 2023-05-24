@@ -26,7 +26,7 @@ public class FizzBuzzConverterTest {
 
         FizzBuzzConverter fizzBuzz = new FizzBuzzConverter();
 
-        Assertions.assertEquals("Fiz", fizzBuzz.convert(3));
+        Assertions.assertEquals("Fizz", fizzBuzz.convert(3));
     }
     
     @Test
@@ -52,6 +52,7 @@ public class FizzBuzzConverterTest {
         Assertions.assertEquals("FizzBuzz", fizzBuzz.convert(21));
         Assertions.assertEquals("FizzBuzz", fizzBuzz.convert(42));
         Assertions.assertEquals("FizzBuzz", fizzBuzz.convert(63));
+        Assertions.assertEquals("FizzBuzz", fizzBuzz.convert(84));
     }
 
 }
