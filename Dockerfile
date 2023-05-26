@@ -8,8 +8,8 @@ WORKDIR /usr/src/app
 
 COPY . .
 
-RUN cd frontend && npm install --legacy-peer-deps
-RUN cd frontend && npm run build --legacy-peer-deps
+RUN cd frontend && npm install --force
+RUN cd frontend && npm run build 
 RUN mv frontend/dist frontend/static
 RUN mv frontend/static backend/src/main/resources
 RUN rm -r frontend
